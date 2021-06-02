@@ -1,0 +1,34 @@
+﻿生成启动时间为 2021/6/2 19:54:57。
+     1>项目“F:\Git\QT-projects\winCalculator\winCalculator\winCalculator.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\winCalculator.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing wincalculator.h...
+         Uic'ing wincalculator.ui...
+         Rcc'ing wincalculator.qrc...
+     1>RCC : warning : No resources in 'F:\Git\QT-projects\winCalculator\winCalculator\wincalculator.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /I"D:\Program Files (x86)\Visual Leak Detector\include" /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_wincalculator.cpp
+         qrc_wincalculator.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /I"D:\Program Files (x86)\Visual Leak Detector\include" /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_wincalculator.cpp main.cpp wincalculator.cpp
+         moc_wincalculator.cpp
+         main.cpp
+         wincalculator.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Git\QT-projects\winCalculator\Win32\Release\\winCalculator.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib /LIBPATH:"D:\Program Files (x86)\Visual Leak Detector\lib\Win32" qtmain.lib QtCore4.lib QtGui4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\winCalculator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"F:\Git\QT-projects\winCalculator\Win32\Release\winCalculator.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Git\QT-projects\winCalculator\Win32\Release\winCalculator.lib" /MACHINE:X86 Release\qrc_wincalculator.obj
+         Release\moc_wincalculator.obj
+         Release\main.obj
+         Release\wincalculator.obj
+         winCalculator.vcxproj -> F:\Git\QT-projects\winCalculator\Win32\Release\winCalculator.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Git\QT-projects\winCalculator\Win32\Release\\winCalculator.exe;#1" /manifest Release\winCalculator.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\winCalculator.unsuccessfulbuild”。
+         正在对“Release\winCalculator.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Git\QT-projects\winCalculator\winCalculator\winCalculator.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.94
