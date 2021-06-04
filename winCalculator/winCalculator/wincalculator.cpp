@@ -379,7 +379,7 @@ void winCalculator::on_divBtn_clicked()
 
 	if(str.size() >= maxCharNum) return;
 
-	if(str.size() > 1)
+	if(str.size() > 1 || (str.size()==1 && str[0]!= '0'))
 	{
 		str = str + "/";
 	}
@@ -431,23 +431,24 @@ void winCalculator::on_subBtn_clicked()
 
 void winCalculator::on_surplusBtn_clicked()
 {
-	QString str = ui.showLab->text();
-	if(isEqual)
-	{
-		str.clear();
-		str.append('0');
-		isEqual = false;
-		ui.showLab->setText(str);
-		ui.showResult->setText("");
-		return;
-	}
-	if(str.size() >= maxCharNum) return;
+	//QString str = ui.showLab->text();
+	//if(isEqual)
+	//{
+	//	str.clear();
+	//	str.append('0');
+	//	isEqual = false;
+	//	ui.showLab->setText(str);
+	//	ui.showResult->setText("");
+	//	return;
+	//}
 
-	if(str.size() > 1)
-	{
-		str = str + "%";
-	}
-	ui.showLab->setText(str);
+	//if(str.size() >= maxCharNum) return;
+
+	//if(str.size() > 1)
+	//{
+	//	str = str + "%";
+	//}
+	//ui.showLab->setText(str);
 }
 
 double getCalResult(QString str,bool &isNormal)
@@ -524,7 +525,12 @@ double getCalResult(QString str,bool &isNormal)
 								isNormal=false;
 								return 0;
 							}
-						}
+						}/*else if(operatorChar =='%')
+						{
+							int 
+							reS = value2 % value1;
+							numberStack.push(reS);
+						}*/
 
 					}// end while
 					
